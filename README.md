@@ -2,7 +2,7 @@
 
 CO2 monitoring, displaying on the train signs.
 
-![picture of train sign showing environment information]()
+![picture of train sign showing environment information](./images/sign.jpg)
 
 For more information about the train signs, see <https://github.com/sheffieldhackspace/train-signs>
 
