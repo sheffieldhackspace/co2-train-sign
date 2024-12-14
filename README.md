@@ -48,3 +48,9 @@ pio run -t upload
 ```bash
 pio device monitor
 ```
+
+## wiring
+
+![picture of controller board connected to monitor board via Serial](./images/controller.png)
+
+![picture of monitor board connected to controller board via Serial, and connected to SCD40 via I2C](./images/monitor.png)
