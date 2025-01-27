@@ -6,15 +6,7 @@ CO2 monitoring, displaying on the train signs.
 
 For more information about the train signs, see <https://github.com/sheffieldhackspace/train-signs>
 
-## Environment monitor
-
-The monitor is an SCD40: <https://sensirion.com/products/catalog/SCD40>
-
-It has an accuracy of:
-
-- CO2 accuracy: ±50.0 ppm
-- temperature accuracy: 0.8 °C
-- relative humidity accuracy: 6 %RH
+For more information about the environment monitor, see <https://github.com/alifeee/co2-monitoring>
 
 Note that the sensor is within the sign enclosure, so the measurements are probably not very accurate, as there is likely not much airflow into the enclosure.
 
