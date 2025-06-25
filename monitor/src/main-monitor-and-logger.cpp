@@ -278,6 +278,7 @@ void loop() {
     influxsensor.addField("co2", co2);
     influxsensor.addField("temperature", temperature);
     influxsensor.addField("humidity", humidity);
+    influxsensor.addField("rssi", WiFi.RSSI());
 
     // Print what are we exactly writing
     Serial.print("Writing: ");
