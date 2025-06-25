@@ -27,12 +27,18 @@ This project consists of two folders:
 
 ```bash
 pio run
+# or with monitor, set environment
+pio run -e monitor
+pio run -e monitor-and-logger
 ```
 
 ### upload
 
 ```bash
 pio run -t upload
+# or with monitor, set environment
+pio run -e monitor -t upload
+pio run -e monitor-and-logger -t upload
 ```
 
 ### monitor
