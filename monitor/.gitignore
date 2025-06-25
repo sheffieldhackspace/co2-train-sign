@@ -1,1 +1,4 @@
 .pio
+
+# secrets
+/src/secrets.h
