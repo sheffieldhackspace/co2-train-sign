@@ -35,7 +35,7 @@ InfluxDBClient client(INFLUXDB_URL, INFLUXDB_ORG, INFLUXDB_BUCKET,
 Point influxsensor("environment");
 
 #define DO_SERIAL
-#define DEVICE "ESP8266-BUSSIGN"
+#define DEVICE "ESP8266-TRAINSIGN"
 #define TZ_INFO "UTC0"
 
 SensirionI2CScd4x scd4x;
@@ -138,6 +138,7 @@ void setup() {
 
   // SETUP wifi
   WiFi.mode(WIFI_STA);
+  WiFi.setHostname(DEVICE);
   wifiMulti.addAP(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("Connecting to wifi");
   link.print("Connecting to wifi");
